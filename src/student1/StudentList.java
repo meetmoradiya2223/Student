@@ -4,7 +4,7 @@ package student1;
 
 public class StudentList {
     public static void main(String[] args){
-        Student[] s1 = new Student1[3]("s4","Ronak");
+        Student1 s1 = new Student1("s4","Ronak");
         
         Student1[] studentList = new Student1[3];
         studentList[0] = new Student1("s1","Ronak");
